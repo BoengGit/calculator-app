@@ -3,6 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Switch, Text, View } from 'react-native';
 import { ThemeContext } from './src/context/ThemeContext';
 import { myColors } from './src/styles/Colors';
+import Button from './src/components/Button';
 
 export default function App() {
   const [theme, setTheme] = useState('light');
